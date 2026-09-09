@@ -1,0 +1,56 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "gigger-40284",
+          "appId": "1:671272294190:android:de423ad8b318e345198cbf",
+          "fileOutput": "android/app/google-services.json"
+        },
+        "buildConfigurations": {
+          "src/dev": {
+            "projectId": "gigger-40284",
+            "appId": "1:671272294190:android:747174a7a41e9eb5198cbf",
+            "fileOutput": "android/app/src/dev/google-services.json"
+          },
+          "src/prod": {
+            "projectId": "gigger-40284",
+            "appId": "1:671272294190:android:de423ad8b318e345198cbf",
+            "fileOutput": "android/app/src/prod/google-services.json"
+          }
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "gigger-40284",
+          "appId": "1:671272294190:ios:9ffb49206b247330198cbf",
+          "uploadDebugSymbols": true,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "gigger-40284",
+          "configurations": {
+            "android": "1:671272294190:android:de423ad8b318e345198cbf",
+            "ios": "1:671272294190:ios:9ffb49206b247330198cbf"
+          }
+        },
+        "lib/firebase_options_dev.dart": {
+          "projectId": "gigger-40284",
+          "configurations": {
+            "android": "1:671272294190:android:747174a7a41e9eb5198cbf",
+            "ios": "1:671272294190:ios:9ffb49206b247330198cbf"
+          }
+        },
+        "lib/firebase_options_prod.dart": {
+          "projectId": "gigger-40284",
+          "configurations": {
+            "android": "1:671272294190:android:de423ad8b318e345198cbf",
+            "ios": "1:671272294190:ios:9ffb49206b247330198cbf"
+          }
+        }
+      }
+    }
+  }
+}
